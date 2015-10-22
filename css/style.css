@@ -418,9 +418,9 @@
 		border-radius: 40px 0px;
 	}
 
-	.member .member-img:hover:before{
+	/*.member .member-img:hover:before{
 		opacity: 0.6;
-	}
+	}*/
 
 	.member .member-img img{
 		border-width: 3px;
@@ -430,12 +430,15 @@
 		height: auto;
 	}
 
-	.member-img-p {
+	.member-p {
 		border-width: 1px;
 		border-style: solid;
+		border-color: #00ab66;
 		border-radius: 40px 0px;
 		width: 100%;
-		height: auto;
+    height: 220px;
+		padding: 20px;
+		text-align: justify;
 	}
 
 	.member-social{
