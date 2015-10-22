@@ -27,8 +27,12 @@
 		font-family: 'Open Sans', sans-serif;
 		position: relative;
 		font-weight:400;
-		background: #fff;
-		color:#43484E
+		/*background: #fff;*/
+		color:#43484E;
+		background: url(../images/mountain_1.jpg) no-repeat center center fixed;
+		background-size: cover;
+	  overflow: visible;
+
 	}
 
 	html, body {
@@ -118,6 +122,10 @@
 
 	.main-logo {
 		margin-bottom: 50px;
+	}
+
+	.logo-size {
+		max-height: 250px;
 	}
 
 	.home-page h1{
@@ -439,6 +447,10 @@
     height: 220px;
 		padding: 20px;
 		text-align: justify;
+	  display: flex;
+	  justify-content: center;
+	  flex-direction: column;
+	  font-size: 14px;
 	}
 
 	.member-social{
@@ -659,4 +671,8 @@
 		right: 98px;
 	}
 
+}
+
+.center-text {
+    text-align: center;
 }
